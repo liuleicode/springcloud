@@ -11,4 +11,4 @@ eureka:
       defaultZone: http://peer1:8761/eureka/
 
 
-#      java -jar microservice-discovery-eureka-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer2
+#      java -jar microservice-discovery-eureka-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer2  
