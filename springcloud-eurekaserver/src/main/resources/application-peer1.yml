@@ -9,3 +9,6 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone: http://peer2:8762/eureka/
+
+
+#      java -jar microservice-discovery-eureka-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer1
