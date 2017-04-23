@@ -1,4 +1,4 @@
-package com.springcloud.client.model;
+package com.springcloud.ribbon.model;
 
 /**
  * Created by liulei on 2017/4/22.
@@ -14,6 +14,9 @@ public class User {
         this.age = age;
         this.name = name;
         this.sex = sex;
+    }
+
+    public User() {
     }
 
     public Long getId() {

@@ -1,0 +1,18 @@
+server:
+  port: 8011
+spring:
+  application:
+    name: microservice-consumer-movie-feign
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery:8761/eureka/
+
+  instance:
+    preferIpAddress: true
+
+ribbon:
+  eager-load:
+    enabled: true
+
+
